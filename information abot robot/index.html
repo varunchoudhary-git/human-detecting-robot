@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Detecting Robot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">HUMAN DETECTING ROBOT</div>
+            <button id="translate-btn" onclick="goToHindi()">Translate to हिंदी</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>The Future of Robotics</h1>
+                <p>Discover the human-detecting robot powered by advanced AI and cutting-edge technology.</p>
+                <button class="cta-btn" onclick="goToComponents()">Learn More</button>
+            </div>
+        </section>
+
+        <section id="about" class="info-section">
+            <div class="container">
+                <h2>About the Human Detecting Robot</h2>
+                <p>The human-detecting robot is a sophisticated machine designed to identify and track humans using advanced sensors and machine learning algorithms. It is capable of detecting human presence in crowded areas, buildings, and outdoor spaces.</p>
+            </div>
+        </section>
+
+        <section id="technology" class="info-section dark-section">
+            <div class="container">
+                <h2>Technology Behind the Robot</h2>
+                <ul>
+                    <li><strong>Machine Learning:</strong> Processes sensor inputs to recognize human shapes and movements.</li>
+                    <li><strong>Sensors:</strong> Infrared, ultrasonic, and cameras enable real-time detection and tracking.</li>
+                    <li><strong>AI Integration:</strong> Built-in AI ensures continuous learning and improved accuracy over time.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="team" class="info-section">
+            <div class="container">
+                <h2>Meet Our Team</h2>
+                <p>This project is developed by:</p>
+                <ul>
+                    <li>Varun</li>
+                    <li>Nikit</li>
+                    <li>Hiren</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Crafted under the guidance and leadership of Varun, a dedicated student of Class 9.</p>
+        </div>
+    </footer>
+
+    <script>
+        function goToHindi() {
+            window.location.href = "hindi.html";
+        }
+
+        function goToComponents() {
+            window.location.href = "components.html"; // Optional if you want a components page
+        }
+    </script>
+</body>
+</html>

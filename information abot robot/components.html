@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Components</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">RobotTech</div>
+            <button id="back-btn" onclick="goBack()">Back to Home</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="components" class="info-section">
+            <div class="container">
+                <h2>Robot Components</h2>
+                <ul class="components-list">
+                    <li><strong>Servo Motors:</strong> Used for precise control of angular position in the robot's joints or mechanisms.</li>
+                    <li><strong>BO Motors:</strong> Small and efficient DC motors that drive the robot's wheels.</li>
+                    <li><strong>Arduino Uno:</strong> The microcontroller used to program and control the robot's operations.</li>
+                    <li><strong>Motor Driver:</strong> Acts as an interface between the microcontroller and motors, allowing for bidirectional control.</li>
+                    <li><strong>Ultrasonic Sensor:</strong> Measures distance to objects and helps in detecting obstacles.</li>
+                    <li><strong>IR Sensors:</strong> Detects human presence by identifying changes in infrared radiation.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Made by Varun, Nikit, Hiren</p>
+        </div>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
